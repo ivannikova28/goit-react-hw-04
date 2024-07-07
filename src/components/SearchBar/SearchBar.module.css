@@ -1,0 +1,29 @@
+.button {
+    display: flex;
+    padding: 5px;
+    width: 120px;
+    margin: 10px auto 10px;
+    justify-content: center;
+    background-color: aliceblue;
+    color: rgba(0, 0, 0, 0.556);
+    border-width: 2px;
+    border-style: inset;
+    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.form {
+    display: flex;
+    width: 400px;
+    align-items: center
+}
+
+.input {
+    width: 300px;
+    height: 28px;
+    border-radius: 7px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    ;
+}
